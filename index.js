@@ -37,7 +37,7 @@ const storage = multer.diskStorage({
 });
 
 app.get("/",(req,res)=>{
-  res.json("server start")
+  res.json("server done start")
 })
 
 const upload = multer({ storage: storage });
